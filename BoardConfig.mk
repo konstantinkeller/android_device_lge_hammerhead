@@ -24,7 +24,9 @@ TARGET_CPU_VARIANT := krait
 TARGET_NO_BOOTLOADER := true
 
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-TARGET_KERNEL_CONFIG := hammerhead_defconfig
+TARGET_KERNEL_CONFIG := custom_hammerhead_defconfig
+TARGET_VARIANT_CONFIG := custom_hammerhead_defconfig
+TARGET_SELINUX_CONFIG := custom_hammerhead_defconfig
 
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
